@@ -77,3 +77,43 @@
     border-radius: 23px;
     filter: grayscale(80%) saturate(100%);
 }
+
+/* esercizio 8 */
+.ex-9-img{
+    transition: all 2s ease-in-out;
+}
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 23px;
+    filter: sepia(90%) saturate(100%) grayscale(20%);
+}
+
+
+
+
+
+
+
+
+/* esercizio 9 */
+
+
+
+
+/* esercizio 10 */
+
+
+
+
+/* esercizio 11 */
+
+
+
+
+/* esercizio 12 */
+
+
+
+
+/* esercizio 13 */
