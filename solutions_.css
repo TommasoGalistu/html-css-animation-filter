@@ -78,7 +78,7 @@
     filter: grayscale(80%) saturate(100%);
 }
 
-/* esercizio 8 */
+/* esercizio 9 */
 .ex-9-img{
     transition: all 2s ease-in-out;
 }
@@ -89,7 +89,7 @@
     filter: sepia(90%) saturate(100%) grayscale(20%);
 }
 
-/* esercizio 9 */
+/* esercizio 10 */
 .ex-10-icon{
     animation-name: infinitRotation;
     animation-duration: 2s;
@@ -107,7 +107,7 @@
     }
 }
 
-/* esercizio 10 */
+/* esercizio 11 */
 .ex-11-icon{
     
 }
@@ -133,13 +133,54 @@
 
 
 
-/* esercizio 11 */
-
-
-
-
 /* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: moveBlockTop;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: moveBlockBottom;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes moveBlockTop {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    60% {
+        top: -10px;
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes moveBlockBottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    60% {
+        bottom: -10px;
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
 
 
 
