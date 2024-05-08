@@ -92,7 +92,7 @@
 /* esercizio 10 */
 .ex-10-icon{
     animation-name: infinitRotation;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear
 }
@@ -108,17 +108,14 @@
 }
 
 /* esercizio 11 */
-.ex-11-icon{
-    
-}
 
 .ex-11-icon:hover{
-    animation-name: infinitRotation;
+    animation-name: comeBack;
     animation-duration: 2s;
     animation-timing-function: linear
 }
 
-@keyframes infinitRotation{
+@keyframes comeBack{
     0% {
         transform: rotate(0deg)  
     }
