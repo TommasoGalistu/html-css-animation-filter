@@ -108,7 +108,28 @@
 }
 
 /* esercizio 10 */
+.ex-11-icon{
+    
+}
 
+.ex-11-icon:hover{
+    animation-name: infinitRotation;
+    animation-duration: 2s;
+    animation-timing-function: linear
+}
+
+@keyframes infinitRotation{
+    0% {
+        transform: rotate(0deg)  
+    }
+   
+    75% {
+        transform: rotate(340deg)  
+    }
+    100% {
+        transform: rotate(0deg)  
+    }
+}
 
 
 
