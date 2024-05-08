@@ -89,17 +89,23 @@
     filter: sepia(90%) saturate(100%) grayscale(20%);
 }
 
-
-
-
-
-
-
-
 /* esercizio 9 */
+.ex-10-icon{
+    animation-name: infinitRotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
 
-
-
+@keyframes infinitRotation{
+    0% {
+        transform: rotate(0deg)  
+    }
+   
+    100% {
+        transform: rotate(-360deg)  
+    }
+}
 
 /* esercizio 10 */
 
